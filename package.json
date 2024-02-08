@@ -1,0 +1,21 @@
+{
+  "name": "express_manager_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "npx tsc",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.16",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
